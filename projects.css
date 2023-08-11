@@ -1,0 +1,82 @@
+li{
+    display: inline;
+}
+
+#navi a{
+  float: right;
+  color: #cf4646;
+  text-align: right;
+  padding: 14px 16px;
+  font-size: 25px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+#mission{
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+#pa{
+  font-size: 19px;
+  color:black;
+}
+
+
+.homes .details{
+  background-color: gray;
+  overflow-y: hidden;
+}
+
+.homes .details .thumb{
+  background-color: gray;
+  padding: 2px;
+}
+
+.boxes {
+  display: flex;
+}
+
+.homes .details .thumb .Home1 img{
+  height: 600px;
+  width: 1050px;
+  object-fit: contain;
+}
+
+.homes .details .thumb .small-images{
+  padding-top: 10px;
+  gap: 7px;
+  justify-content: center;
+  display: flex;
+}
+
+.homes .details .thumb .small-images img{
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.box {
+  flex:5%;
+  padding: -5px;
+  height: 140px;
+}
+
+#h2{
+  margin-top: -10px;
+}
+
+#h3{
+  color: darkblue;
+  text-align: left;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+#h4{
+  color: black;
+  font-size:27px;
+}
+

@@ -1,0 +1,112 @@
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+input[type=text], select, textarea {
+  border: 1px solid red;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 12px;
+  
+}
+
+#submit{
+  background-color: red;
+  color: white;
+  padding: 13px 25px;
+  border: none;
+  letter-spacing: 1px;
+
+}
+
+#submit:hover {
+  background-color: black;
+}
+
+.container {
+  border-radius: 10px;
+  background-color:tan;
+  padding: 2px;
+}
+
+.column {
+  margin-top: 6px;
+  padding: 30px;float: left;
+  width: 49%;
+}
+
+.row{
+  display: table;
+}
+
+</style>
+<html>
+    <head>
+        <title>Real Estate</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="projects.css">
+
+    </head>
+<header>
+  <nav>
+      <ul id="navi">
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listings.html">Listings</a></li>      
+      </ul>
+  </nav>
+</header>
+<body bgcolor="black">
+
+<h1 style="background:orange;font-size: 35px;margin-bottom:15px;"><center>Contact Section</center></style></h1>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Have Some Questions?</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Photo.jpeg" height="550" width="500">
+    </div>
+    <div class="column">
+        <label for="firstname">First Name</label>
+        <input type="text" placeholder="Your name..">
+
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Your last name..">
+
+        <label for="phone">Phone Number</label>
+        <input type="text" placeholder="Your Number..">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Your Email..">
+
+        <label for="message">Message</label>
+        <input type="text" placeholder="Your message..">
+
+        <label for="property">Type Of Property</label>
+        <select id="property" name="property">
+          <option value="house">House</option>
+          <option value="Condominium">Condominium</option>
+          <option value="Commercial Space">Commercial Building</option>
+          <option value="cottage">Cottage</option>
+        </select>
+
+        <label for="addcomments">Additional Comments</label>
+        <textarea id="subject" name="subject" placeholder="Comments.." style="height:70px"></textarea>
+
+        <input id="submit" type="submit"  value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
